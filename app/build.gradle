@@ -18,7 +18,7 @@ android {
     }
     compileSdkVersion 26
     defaultConfig {
-        applicationId 'com.bodyweight.fitness'
+        applicationId 'com.pumpn.oida'
         minSdkVersion 21
         targetSdkVersion 26
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

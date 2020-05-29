@@ -1,7 +1,7 @@
 <resources>
 	<string name="transition_dashboard">transition:DASHBOARD</string>
 
-	<string name="app_name">Bodyweight Fitness</string>
+	<string name="app_name">Pumpn Oida</string>
 	<string name="app_version">1.4.2</string>
 	<string name="action_progression">Choose Exercise Progression</string>
 	<string name="action_about">About</string>
