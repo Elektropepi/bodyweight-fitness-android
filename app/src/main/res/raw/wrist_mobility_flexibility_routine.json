@@ -1,0 +1,102 @@
+{
+  "routineId": "97dd5a35-ed82-4c89-82e0-715f1177578a",
+  "title": "Wrist Mobility",
+  "subtitle": "Wrist Warm-Up",
+  "shortDescription": "TODO",
+  "url": "https://www.youtube.com/watch?v=8lDC4Ri9zAQ&feature=youtu.be&t=7m20s",
+  "routine": [
+    {
+      "categoryId": "bf77aecc-0898-4a10-9112-d45812e18129",
+      "title": "Wrist Mobility",
+      "type": "category"
+    },
+    {
+      "sectionId": "fcc1773a-2c66-4c86-b2a2-263a607d5ae3",
+      "title": "Wrist Mobility",
+      "description": "Do all, 10-30 reps as shown",
+      "type": "section",
+      "mode": "all"
+    },
+    {
+      "exerciseId": "8937da01-87c6-46d3-9ac1-7a498c786922",
+      "title": "First Knuckle Push Ups",
+      "description": "1x(10-30)",
+      "type": "exercise",
+      "youTubeId": "8lDC4Ri9zAQ",
+      "videoId": "wrist_mobility_first_knuckle_push_ups",
+      "defaultSet": "weighted"
+    },
+    {
+      "exerciseId": "32a3e7da-1b4c-445b-a33f-91f6baf096da",
+      "title": "Side to Side Palm Rotations",
+      "description": "1x(10-30)",
+      "type": "exercise",
+      "youTubeId": "8lDC4Ri9zAQ",
+      "videoId": "wrist_mobility_side_to_side_palm_rotations",
+      "defaultSet": "weighted"
+    },
+    {
+      "exerciseId": "3ad81228-7776-4777-9007-dc081dc1c293",
+      "title": "Side to Side Stretch",
+      "description": "1x(10-30)",
+      "type": "exercise",
+      "youTubeId": "8lDC4Ri9zAQ",
+      "videoId": "wrist_mobility_side_to_side_stretch",
+      "defaultSet": "weighted"
+    },
+    {
+      "exerciseId": "f4f98ea2-3e90-4b27-86f7-d78628908ca3",
+      "title": "Rear Facing Stretch (Palms Up)",
+      "description": "1x(10-30)",
+      "type": "exercise",
+      "youTubeId": "8lDC4Ri9zAQ",
+      "videoId": "wrist_mobility_rear_facing_stretch_palms_up",
+      "defaultSet": "weighted"
+    },
+    {
+      "exerciseId": "065c84f1-0ae5-453b-b8fb-69a78d102d3d",
+      "title": "Rear Facing Elbow Rotations",
+      "description": "1x(10-30)",
+      "type": "exercise",
+      "youTubeId": "8lDC4Ri9zAQ",
+      "videoId": "wrist_mobility_rear_facing_elbow_rotations",
+      "defaultSet": "weighted"
+    },
+    {
+      "exerciseId": "e18c973b-3969-486f-9433-52ee11ca54c4",
+      "title": "Front Facing Elbow Rotations",
+      "description": "1x(10-30)",
+      "type": "exercise",
+      "youTubeId": "8lDC4Ri9zAQ",
+      "videoId": "wrist_mobility_front_facing_elbow_rotations",
+      "defaultSet": "weighted"
+    },
+    {
+      "exerciseId": "7d9fd85b-ce1e-404c-b198-e16cc70b0874",
+      "title": "Backward Stretch (Palms Down)",
+      "description": "1x(10-30)",
+      "type": "exercise",
+      "youTubeId": "8lDC4Ri9zAQ",
+      "videoId": "wrist_mobility_backward_stretch_palms_down",
+      "defaultSet": "weighted"
+    },
+    {
+      "exerciseId": "51375a44-fda8-4c30-be96-c36e4262f4f2",
+      "title": "Forward Stretch",
+      "description": "1x(10-30)",
+      "type": "exercise",
+      "youTubeId": "8lDC4Ri9zAQ",
+      "videoId": "wrist_mobility_forward_stretch",
+      "defaultSet": "weighted"
+    },
+    {
+      "exerciseId": "747ea0e8-f96c-4741-bdd9-6088a331620c",
+      "title": "Knuckle Forward Stretch",
+      "description": "1x(10-30)",
+      "type": "exercise",
+      "youTubeId": "KEY9D-PDWXc",
+      "videoId": "wrist_mobility_knuckle_forward_stretch",
+      "defaultSet": "weighted"
+    }
+  ]
+}

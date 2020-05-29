@@ -40,8 +40,10 @@ object RoutineStream {
                 JsonRoutineLoader().getRoutine(R.raw.bodyweight_fitness_recommended_routine)
             } else if(Preferences.defaultRoutine == "d8a722a0-fae2-4e7e-a751-430348c659fe") {
                 JsonRoutineLoader().getRoutine(R.raw.starting_stretching_flexibility_routine)
-            } else {
+            }  else if(Preferences.defaultRoutine == "e73593f4-ee17-4b9b-912a-87fa3625f63d") {
                 JsonRoutineLoader().getRoutine(R.raw.molding_mobility_flexibility_routine)
+            } else {
+                JsonRoutineLoader().getRoutine(R.raw.wrist_mobility_flexibility_routine)
             }
     
         set(value) {
@@ -77,6 +79,9 @@ object RoutineStream {
             }
             2 -> {
                 routine = JsonRoutineLoader().getRoutine(R.raw.molding_mobility_flexibility_routine)
+            }
+            3 -> {
+                routine = JsonRoutineLoader().getRoutine(R.raw.wrist_mobility_flexibility_routine)
             }
         }
     }
