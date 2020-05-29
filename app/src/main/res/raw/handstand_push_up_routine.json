@@ -1,0 +1,50 @@
+{
+  "routineId": "2ef7e839-7b0d-4963-ad8b-637e99d70230",
+  "title": "Handstand Push Up",
+  "subtitle": "Handstand Push Up Progression",
+  "shortDescription": "TODO",
+  "url": "https://thenics.de/",
+  "routine": [
+    {
+      "categoryId": "f89ceb1b-36a4-4161-b9a9-d442e05430a7",
+      "title": "Handstand Push Up",
+      "type": "category"
+    },
+    {
+      "sectionId": "ab978e58-c0f6-4e6d-830b-fbbd586e1351",
+      "title": "Exercise 1",
+      "description": "vull gas",
+      "type": "section",
+      "mode": "levels",
+      "defaultSet": "weighted"
+    },
+    {
+      "exerciseId": "4803b78d-4a3d-4b85-8715-7e04d8cd4948",
+      "level": "Level 1",
+      "title": "Pike Push Up",
+      "description": "vull gas",
+      "type": "exercise",
+      "youTubeId": "1Jjjyp4uhks",
+      "videoId": "handstand_push_up_pike_push_up",
+      "defaultSet": "weighted"
+    },
+    {
+      "sectionId": "5479ecc1-71f2-4866-b3c7-8ca840a0167b",
+      "title": "Exercise 2",
+      "description": "vull gas",
+      "type": "section",
+      "mode": "levels",
+      "defaultSet": "weighted"
+    },
+    {
+      "exerciseId": "91befd15-9e9d-416a-9522-02a006b5977b",
+      "level": "Level 1",
+      "title": "Hindu Push Up",
+      "description": "vull gas",
+      "type": "exercise",
+      "youTubeId": "vQsQAiE0NQo",
+      "videoId": "handstand_push_up_hindu_push_up",
+      "defaultSet": "weighted"
+    }
+  ]
+}

@@ -35,17 +35,15 @@ object RoutineStream {
     private val routineSubject = PublishSubject.create<Routine>()
     private val exerciseSubject = PublishSubject.create<Exercise>()
 
-    var routine: Routine =
-            if (Preferences.defaultRoutine == "routine0") {
-                JsonRoutineLoader().getRoutine(R.raw.bodyweight_fitness_recommended_routine)
-            } else if(Preferences.defaultRoutine == "d8a722a0-fae2-4e7e-a751-430348c659fe") {
-                JsonRoutineLoader().getRoutine(R.raw.starting_stretching_flexibility_routine)
-            }  else if(Preferences.defaultRoutine == "e73593f4-ee17-4b9b-912a-87fa3625f63d") {
-                JsonRoutineLoader().getRoutine(R.raw.molding_mobility_flexibility_routine)
-            } else {
-                JsonRoutineLoader().getRoutine(R.raw.wrist_mobility_flexibility_routine)
-            }
-    
+    val idToRoutine = mapOf("routine0" to R.raw.bodyweight_fitness_recommended_routine,
+        "d8a722a0-fae2-4e7e-a751-430348c659fe" to R.raw.starting_stretching_flexibility_routine,
+        "e73593f4-ee17-4b9b-912a-87fa3625f63d" to R.raw.molding_mobility_flexibility_routine,
+        "97dd5a35-ed82-4c89-82e0-715f1177578a" to R.raw.wrist_mobility_flexibility_routine,
+        "2ef7e839-7b0d-4963-ad8b-637e99d70230" to R.raw.handstand_push_up_routine);
+
+    var routine: Routine = JsonRoutineLoader().getRoutine(idToRoutine[Preferences.defaultRoutine]
+            ?: R.raw.bodyweight_fitness_recommended_routine)
+
         set(value) {
             if (value.routineId.equals(routine.routineId)) {
                 return
@@ -82,6 +80,9 @@ object RoutineStream {
             }
             3 -> {
                 routine = JsonRoutineLoader().getRoutine(R.raw.wrist_mobility_flexibility_routine)
+            }
+            4 -> {
+                routine = JsonRoutineLoader().getRoutine(R.raw.handstand_push_up_routine)
             }
         }
     }
