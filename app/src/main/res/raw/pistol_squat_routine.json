@@ -1,0 +1,32 @@
+{
+  "routineId": "e4b9550e-4ca3-4ee7-b622-1eb47123c5bb",
+  "title": "Pistol Squat",
+  "subtitle": "Pistol Squat",
+  "shortDescription": "TODO",
+  "url": "https://thenics.de/",
+  "routine": [
+    {
+      "categoryId": "5b46f04d-b0e1-4a94-9459-e1444ff97e07",
+      "title": "Pistol Squat",
+      "type": "category"
+    },
+    {
+      "sectionId": "f321d387-94a3-4453-9260-50e0aa7cf7d7",
+      "title": "Exercise 1",
+      "description": "vull gas",
+      "type": "section",
+      "mode": "levels",
+      "defaultSet": "weighted"
+    },
+    {
+      "exerciseId": "d19ce0a2-fc3b-45db-a3bf-46d277041515",
+      "level": "Level 1",
+      "title": "Archer Squat",
+      "description": "vull gas",
+      "type": "exercise",
+      "youTubeId": "-AOpemH7Tb4",
+      "videoId": "pistol_squat_archer_squat",
+      "defaultSet": "weighted"
+    }
+  ]
+}

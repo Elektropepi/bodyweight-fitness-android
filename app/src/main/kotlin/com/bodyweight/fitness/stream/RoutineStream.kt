@@ -39,7 +39,8 @@ object RoutineStream {
         "d8a722a0-fae2-4e7e-a751-430348c659fe" to R.raw.starting_stretching_flexibility_routine,
         "e73593f4-ee17-4b9b-912a-87fa3625f63d" to R.raw.molding_mobility_flexibility_routine,
         "97dd5a35-ed82-4c89-82e0-715f1177578a" to R.raw.wrist_mobility_flexibility_routine,
-        "2ef7e839-7b0d-4963-ad8b-637e99d70230" to R.raw.handstand_push_up_routine);
+        "2ef7e839-7b0d-4963-ad8b-637e99d70230" to R.raw.handstand_push_up_routine,
+        "e4b9550e-4ca3-4ee7-b622-1eb47123c5bb" to R.raw.pistol_squat_routine);
 
     var routine: Routine = JsonRoutineLoader().getRoutine(idToRoutine[Preferences.defaultRoutine]
             ?: R.raw.bodyweight_fitness_recommended_routine)
@@ -83,6 +84,9 @@ object RoutineStream {
             }
             4 -> {
                 routine = JsonRoutineLoader().getRoutine(R.raw.handstand_push_up_routine)
+            }
+            5 -> {
+                routine = JsonRoutineLoader().getRoutine(R.raw.pistol_squat_routine)
             }
         }
     }

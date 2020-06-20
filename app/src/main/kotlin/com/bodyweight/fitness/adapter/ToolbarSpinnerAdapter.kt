@@ -21,7 +21,8 @@ class ToolbarSpinnerAdapter : BaseAdapter() {
                 SpinnerRoutine(1, "Starting Stretching", "Flexibility Routine"),
                 SpinnerRoutine(2, "Molding Mobility", "Flexibility Routine"),
                 SpinnerRoutine(3, "Wrist Mobility", "Wrist Warm-Up"),
-                SpinnerRoutine(4, "Handstand Push Up", "Progression")
+                SpinnerRoutine(4, "Handstand Push Up", "Progression"),
+                SpinnerRoutine(5, "Pistol Squat", "Progression")
         )
     }
 
